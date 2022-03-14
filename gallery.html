@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="gallery.css" />
+
+    <script src="js/gallery.js"></script>
+  </head>
+
+  <body>
+    <header class="container-fluid sticky-top">
+      <div class="container">
+        <div class="row in_header justify-content-between align-content-center">
+          <a href="index.html" class="logo col-auto">Elad's Agency</a>
+
+          <div id="burger_btn" class="hamburger col-auto">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
+
+          <div id="close_btn" class="close_hmburger col-auto">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </div>
+
+          <nav id="id_nav_show_hide" class="col-md-auto p-0">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="FAQ.html">FAQ</a>
+            <a href="trivia.html">Trivia</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="container-fluid">
+      <div class="container py-5">
+        <h2 class="main_title py-2 text-center mb-5">Our Gallery</h2>
+
+        <div id="photo_row" class="row row-cols-1 row-cols-md-4 g-4">
+          <div id="img_display_div" class="big_img_display row justify-content-center align-content-center m-0 p-0">
+            <div class="in_img_display">
+              <img id="img_to_display" class="w-100 rounded-1" />
+
+              <div id="img_close_btn" class="fs-4 m-0 p-0">
+                <i class="fa fa-times" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="main_title py-2 text-center my-5">Our Videos</h2>
+        <div id="video_row" class="row row-cols-1 row-cols-md-3 g-4"></div>
+      </div>
+    </main>
+
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="in_footer row justify-content-center">
+          <div class="footer_icon center col-xl-2">
+            <a href="#">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+
+            <a href="#">
+              <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+
+            <a href="#">
+              <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            </a>
+
+            <a href="#">
+              <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <div class="center col-xl-2">&copy; 2022 Amit Hagbi</div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/burger.js"></script>
+  </body>
+</html>

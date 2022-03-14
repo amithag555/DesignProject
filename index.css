@@ -1,0 +1,256 @@
+.container {
+  min-height: inherit;
+}
+
+.center {
+  min-height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  min-height: 80px;
+  background: rgb(235, 205, 31);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 205, 31, 1) 0%,
+    rgba(14, 14, 13, 1) 0%,
+    rgba(83, 83, 78, 1) 0%,
+    rgba(17, 17, 16, 0.8827906162464986) 0%
+  );
+}
+
+header .in_header {
+  min-height: inherit;
+}
+
+header .logo {
+  font-family: "Pattaya";
+  font-size: 2em;
+  color: white;
+}
+
+header .hamburger {
+  display: none;
+  color: white;
+  font-size: 2.5em;
+}
+
+header .close_hmburger {
+  display: none;
+  color: white;
+  font-size: 2.5em;
+}
+
+header .logo {
+  text-decoration: none;
+  font-family: "Pattaya";
+  font-size: 2em;
+  color: white;
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 0 16px;
+  font-family: "Pattaya";
+  font-size: 2em;
+  color: white;
+}
+
+.slider {
+  min-height: 600px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.slider h5 {
+  font-family: "Pattaya";
+  color: white;
+  background: rgba(0, 0, 0, 0.726);
+  font-size: 1.8em;
+  border-radius: 32px;
+  font-weight: normal;
+  padding: 15px 0;
+  width: 600px;
+  margin: 0 auto;
+}
+
+main {
+  min-height: 100vh;
+
+  background: rgb(235, 205, 31);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 205, 31, 1) 0%,
+    rgba(214, 212, 198, 1) 0%,
+    rgba(210, 210, 201, 1) 100%,
+    rgba(179, 179, 162, 1) 100%,
+    rgba(199, 199, 198, 1) 100%
+  );
+
+  box-shadow: 0px 0px 26px 12px #000000;
+}
+
+main h2 {
+  font-family: "Pattaya";
+  padding-top: 8px;
+}
+
+main .main_title {
+  color: silver;
+  border-radius: 32px;
+  box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.795);
+
+  background: rgb(235, 205, 31);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 205, 31, 1) 0%,
+    rgba(29, 29, 26, 1) 0%,
+    rgba(27, 27, 25, 1) 100%,
+    rgba(46, 46, 43, 1) 100%,
+    rgba(23, 23, 22, 1) 100%,
+    rgba(34, 34, 32, 1) 100%,
+    rgba(83, 83, 78, 1) 100%,
+    rgba(179, 179, 162, 1) 100%,
+    rgba(199, 199, 198, 1) 100%
+  );
+}
+
+main .banner_box {
+  min-height: 320px;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.753);
+  border-radius: 4px;
+  color: silver;
+  text-align: center;
+  box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.795);
+
+  background: rgb(235, 205, 31);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 205, 31, 1) 0%,
+    rgba(29, 29, 26, 1) 0%,
+    rgba(27, 27, 25, 1) 100%,
+    rgba(46, 46, 43, 1) 100%,
+    rgba(23, 23, 22, 1) 100%,
+    rgba(34, 34, 32, 1) 100%,
+    rgba(83, 83, 78, 1) 100%,
+    rgba(179, 179, 162, 1) 100%,
+    rgba(199, 199, 198, 1) 100%
+  );
+}
+
+main .box {
+  box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.795);
+  transition: 1000ms;
+}
+
+main .box:hover {
+  transform: scale(1.1, 1.1);
+}
+
+main .items_row {
+  min-height: 800px;
+}
+
+main .right_img {
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+main .left_img {
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+main .box {
+  background: rgba(0, 0, 0, 0.753);
+  border-radius: 40px;
+  color: silver;
+  min-height: 170px;
+
+  background: rgb(235, 205, 31);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 205, 31, 1) 0%,
+    rgba(29, 29, 26, 1) 0%,
+    rgba(27, 27, 25, 1) 100%,
+    rgba(46, 46, 43, 1) 100%,
+    rgba(23, 23, 22, 1) 100%,
+    rgba(34, 34, 32, 1) 100%,
+    rgba(83, 83, 78, 1) 100%,
+    rgba(179, 179, 162, 1) 100%,
+    rgba(199, 199, 198, 1) 100%
+  );
+}
+
+main p {
+  font-family: "Roboto";
+}
+
+footer {
+  min-height: 80px;
+  background: rgb(15, 13, 13);
+}
+
+footer .in_footer {
+  min-height: inherit;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: silver;
+}
+
+footer .footer_icon a {
+  color: silver;
+  font-size: 2em;
+  text-decoration: none;
+  padding: 12px;
+}
+
+header nav a:hover {
+  color: rgb(129, 125, 125);
+}
+
+@media (max-width: 768px) {
+  header .hamburger {
+    display: block;
+    text-align: right;
+  }
+
+  header nav {
+    display: none;
+    position: absolute;
+    background: rgba(15, 13, 13, 0.836);
+    top: 80px;
+    right: 0;
+  }
+
+  header nav a {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid white !important;
+    width: 100%;
+    padding: 8px 0;
+  }
+
+  header nav a:last-of-type {
+    border-bottom: none !important;
+  }
+
+  .slider .carousel {
+    display: none;
+  }
+
+  .slider {
+    background-image: url("images/london.jpg") !important;
+  }
+
+  main .container {
+    padding-bottom: 50px;
+  }
+
+  main .middle_col {
+    margin: 32px 0;
+  }
+}
