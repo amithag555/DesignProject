@@ -1,3 +1,3 @@
 # Design Project
-# Live website:
+# Live Website:
 https://elad-agency.netlify.app/
